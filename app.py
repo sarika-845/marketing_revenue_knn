@@ -50,3 +50,4 @@ comparison = pd.DataFrame({
     "Predicted": [110, 125, 135, 155]
 })
 st.line_chart(comparison)
+

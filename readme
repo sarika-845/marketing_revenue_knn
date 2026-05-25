@@ -1,0 +1,33 @@
+# Marketing Revenue Prediction (KNN + Streamlit)
+
+## 📌 Overview
+This project predicts **marketing sales revenue** using a K‑Nearest Neighbors (KNN) regression model.  
+It includes **data preprocessing, model training, evaluation, and deployment** with Streamlit.
+
+## 📂 Project Structure
+- `data/train.csv` → Training dataset  
+- `data/test.csv` → Test dataset  
+- `eda.ipynb` → Exploratory Data Analysis  
+- `model.py` → Model training + evaluation  
+- `app.py` → Streamlit app for deployment  
+- `model.pkl` → Saved KNN model  
+- `scaler.pkl` → Saved StandardScaler  
+- `requirements.txt` → Dependencies  
+
+## ⚙️ Workflow
+1. Data preprocessing (handle missing values, scale features)  
+2. Train KNN regressor  
+3. Evaluate with MAE, RMSE, R²  
+4. Save model + scaler  
+5. Deploy with Streamlit  
+
+## 📊 Results
+- **MAE**: 33.48  
+- **RMSE**: 46.14  
+- **R² Score**: 0.10  
+
+## 🚀 Deployment
+Run locally:
+```bash
+streamlit run app.py
+
